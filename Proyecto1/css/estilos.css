@@ -1,0 +1,22 @@
+
+@font-face{
+font-family: "Windlass";
+src: local("Windlass.woff");
+}
+
+*{margin:0px; padding: 0px;}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {display:border;}
+h1 {font:bold 20px verdana,sans-serif;}
+h2 {font:bold 14px verdana,sans-serif;}
+
+
+#agrupar {
+    margin:0px auto;
+    width:90%;
+    max-width: 75rem;
+    
+}
+body{font-size: 1rem;}
+    #menu {font-size: 1.3rem;}
+    .uele {font-size: 2.3rem;}
+ 
