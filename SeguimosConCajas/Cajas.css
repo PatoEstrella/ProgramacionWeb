@@ -1,0 +1,13 @@
+* {margin: 0px;
+    padding: 0px;}
+    h1 {font: bold 20px verdana, sans-sarif;}
+    h2 {font: bold 14px verdana, sans-sarif;}
+    header, section, footer, aside, nav, article, figure, figcaption,hgroup {display: block;}
+    
+    #seccion{margin: 10px 20px 30px 40px;}
+    
+    #articulo1{margin: 10px 20px 30px 40px;}
+
+    #articulo2{margin: 10px 20px 30px 40px;}
+
+    #articulo1{background: gold;}
