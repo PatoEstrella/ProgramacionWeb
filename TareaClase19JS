@@ -1,0 +1,73 @@
+/* Ejercicio 1 */
+
+function funcionRespuesta(numeroHorasTotales){
+    var totalSemanas, totalDias, totalHoras, restoSemana, restoDias= 0;
+    if(numeroHorasTotales<=0)
+        alert("El numero ingresado debe ser mayor a cero");
+    
+    if(numeroHorasTotales >= 168){
+        totalSemanas = Math.trunc(numeroHorasTotales/168);
+        restoSemana = numeroHorasTotales % 168;
+    }else
+        restoSemana = numeroHorasTotales;
+    
+
+    if(restoSemana >= 24){
+        totalDias = Math.trunc(restoSemana/24);
+        restoDias = restoSemana % 24;
+    }else
+        restoDias = restoSemana;
+    
+    totalHoras = restoDias;
+
+    alert("Total semana: "+totalSemanas+", Total dias: "+totalDias+", Total Horas: "+totalHoras);
+}
+
+
+var ingresoTotalHs = 0;
+ingresoTotalHs = prompt("Esciba el numero total de horas: ");
+funcionRespuesta(ingresoTotalHs);
+
+
+
+/* Ejercicio 2
+a) true
+b) true
+c) true
+e) true
+
+Ejercicio 3
+a) true
+b) true
+c) false
+d) true
+e) true
+f) false
+
+Ejercicio 4
+a = 21
+b = 9
+e = 20
+f = 2
+
+Ejercicio 5
+a) false
+b) false
+c) false
+d) true
+e) true
+f) true
+
+Ejercicio 6
+a) 7
+b) 7
+c) 3
+
+Ejercicio 7
+Concatenacion
+var producto = "RJ45";
+var precioBase = 10,50;
+var descuento = 0,05;
+var resultado = 0;
+resultado = precioBase - descuento;
+alert(producto+" ("+descuento+")");
