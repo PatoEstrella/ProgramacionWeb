@@ -1,0 +1,49 @@
+<!DCOTYPE html>
+<html lang="es">
+<head>
+<title>Formulario con appi</title>
+<meta http-equiv="Content-Type" content="text/html"; charset=UTF-8"/>
+<script src="C:\Users\Usuario\Desktop\CUVL\ApiForms\FormularioApi.js"></script>
+</head>
+<body>
+<!--
+	<header id="principal">
+		<span id="titulo">form Api</span>
+	</header>
+	<section>
+<Form name="registración" method="post">
+<Input type="text" name="nombre" id="nombre">
+<input type="text" name="apellido" id="apellido">
+<input type="submit" id="send" value="ingresar">
+</form>
+</section>
+-->
+
+<section>
+<form name="informacion" method="get">
+<input pattern="[A-Za-z]{3,}" name="usuario" id="usuario" maxlength="10" required>
+<input type="email" name="miemail" id="miemail" required>
+<input type="range" name="miedad" id="miedad" min="0" max="80" step="20" value="20">
+<output id="rango"> 0 a 20</output>
+<input type="button" id="enviar" value="ingresar">
+</form>
+</section>
+
+<!--a partir de aca es objeto windows-->
+
+<div>
+<input type="button" id="cerrado?" value="cerrado" onclick="alertacerrado()">
+<iframe src="https://www.google.com.ar/?gws_rd=ssl"></iframe>
+<iframe src="https://www.google.com.ar/?gws_rd=ssl"></iframe>
+<input type="button" id="mframe" value="mframe" onclick="mframes()">
+<input type="button" id="historial" value="historial" onclick="historial()">
+<input type="button" id="scrolld" value="scrolld" onclick="scrolld()">
+<input type="button" id="scrollpx" value="scrollpx" onclick="scrollpx()">
+<input type="button" id="imprimir" value="imprimir" onclick="imprimir()">
+<input type="button" id="cerrar" value="cerrar" onclick="cerrar()">
+</div>
+<style>
+body {width:5000px;}
+</style>
+</body>
+</html>
